@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <title> Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+             <body >
+                <header>Chuckie's Cinema</header>
+                <div>
+                      
+               <form class = "form" action = "ordersummary.php" method = "POST">
+                      <br><label for="name">Customer Name:</label><br>
+                      <input type="text" id="name" name="name"><br>
+
+                      <br><label>Gender :</label>  
+                     <input type="radio" value="Male" name="gender"> Male   
+                     <input type="radio" value="Female" name="gender"> Female<br> 
+                  
+                      <br><label for="age">Age :</label><br>
+                      <input type="age" id="age" name="age"> <br>
+                        
+                      <label for="address">Address:</label><br>
+                      <input type="text" id="address" name="address"><br>
+
+                      <br><label for=" movie ">Cinema to Watch:</label>
+                      <select id="movie" name="movie" >
+                      <option value="Cinema 1">Cinema 1</option>
+                      <option value="Cinema 2">Cinema 2</option>
+                      <option value="Cinema 3">Cinema 3</option>
+                      <option value="Cinema 4"selected>Cinema 4 </option> 
+                      <option value="Cinema 5">Cinema 5</option>
+
+                         </select><br>
+                        
+                        <label for="ticket">Number of Ticket :</label>
+                        <input type="number" id="ticket" name="ticket" min="1" max="10"> <br>
+
+                        <label >Select add-ons:</label> 
+                        <input type="checkbox" id="add1" name=" add1" value=" Burger ">
+                        <label for=" add1"> Burger </label>
+                        <input type="checkbox" id="add1" name=" add2" value=" Drinks ">
+                        <label for=" add2"> Drinks </label>
+                        <input type="checkbox" id=" add1" name=" add3" value=" Popcorn ">
+                        <label for=" add3"> PopCorn</label><br><br>
+
+                        <audio controls autoplay loop>
+                        <source src="music1.mp3"></audio><br><br>
+
+                          
+
+                        <button class = "submit" type="submit">Submit</button><br><br>
+                    
+               </form>
+               <footer>  </footer>
+      </body>
+</html>

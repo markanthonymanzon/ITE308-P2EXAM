@@ -1,0 +1,47 @@
+header {
+	text-align: center;
+	font-family: courier new;
+	font-size: 80px;
+	background-color: #92a8d1;
+	height: 100px;
+	border-style: solid;
+	color: black;
+}
+form {
+	text-align: center;
+	border-style: solid;
+	font-size: 25px;
+	background-color: #92a8d1;
+}
+footer {
+	text-align: center;
+	background-color: #92a8d1 ;
+	height: 100px;
+	border-style: solid;
+}
+#head{
+	text-align: center;
+	font-family: courier new;
+	font-size: 80px;
+	color: black;
+	background-color: #92a8d1;
+	height: 100px;
+}
+#footer{
+	text-align: center;
+	font-family: courier new;
+	font-size: 80px;
+	color: black;
+	background-color: #92a8d1;
+	height: 100px;
+}
+	
+	
+.form1 {
+	border-style: solid;
+	font-size: 30px;
+	background-color: ghostwhite;
+}
+
+
+
